@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ShopData from './ShopData'
+import ShopData from './ShopData';
 
 export default function Shop() {
     return(<div>
-            <h1 className='text-[56px] text-center pb-[35px]'>Shop</h1>
+            <h1 className='text-[56px] text-center mt-[60px] pb-[35px]'>Shop</h1>
             <nav className='w-fit mx-auto'>
                 <Link className='text-[13px] mx-[12px] py-[5px] border-b font-semibold'>AFROROMANCE</Link>
                 <Link className='text-[13px] mx-[12px] py-[5px] border-b font-semibold'>GHANA AWAKE</Link>
@@ -15,7 +15,7 @@ export default function Shop() {
                 <Link className='text-[13px] mx-[12px] py-[5px] border-b font-semibold'>WOMENSWEAR</Link>
             </nav>
 
-            <div className='flex justify-between w-[90%] mx-auto mt-[50px]'>
+            <div className='flex justify-between align-center w-[90%] mx-auto mt-[50px] pb-8'>
                 <span
                 className='text-[10px]'
                 >
@@ -25,13 +25,14 @@ export default function Shop() {
                     >HOME </Link>/ SHOP
                 </span>
                 <span className='text-[13px] font-semibold border p-2 '>DEFAULT SORTING</span>
-                <div className="relative">
+                </div>
+                <div className="w-screen">
                     {ShopData.map(item => (<div 
-                        className="inline-block mr-6">
+                        className="inline-block mx-6 w-[29%] mb-[20px]">
                             <img 
                             src={item.Img} 
                             alt={item.name} 
-                            className="w-[273px]"/>
+                            className="w-full"/>
                             
                             <div className="flex justify-between items-end">
                                 <h3 className="text-[13px] mt-[17px]">{item.name}</h3>
@@ -40,6 +41,5 @@ export default function Shop() {
                                 <h4 className="text-[13px] text-[#545454cc] mt-[4px] font-[500]">{item.price}</h4>
                         </div>))}
                 </div>
-            </div>
         </div>)
 }
