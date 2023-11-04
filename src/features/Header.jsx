@@ -6,7 +6,7 @@ export default function Header() {
         <div className='flex sticky top-0 bg-white h-[63px] justify-between items-center w-full px-[4%] mx-auto py-[20px]'>
             <img 
             className='w-[90px]'
-            src='./src/assets/logo.png' 
+            src='./public/logo.png' 
             alt='ajabeng logo' />
             <span className='flex gap-6'>
                 <nav className='flex'>

@@ -22,27 +22,27 @@ const ShopData = [
     {
         name: 'Kumi Shirt',
         price: '₵1,000.00',
-        Img: './src/assets/SHOP05.jpeg'
+        Img: './public/SHOP05.jpeg'
     },
     {
         name: 'Lumba Lapel Shirt',
         price: '₵1,100.00',
-        Img: './src/assets/SHOP06.jpeg'
+        Img: './public/SHOP06.jpeg'
     },
     {
         name: 'Nkansah Lapel Jacket',
         price: '₵1,100.00',
-        Img: './src/assets/SHOP07.jpeg'
+        Img: './public/SHOP07.jpeg'
     },
     {
         name: 'Open Collar Short Sleeves Shirt',
         price: '₵700.00',
-        Img: './src/assets/SHOP08.jpeg'
+        Img: './public/SHOP08.jpeg'
     },
     {
         name: 'Polo Collar Short Sleeves Shirt',
         price: '₵700.00',
-        Img: './src/assets/SHOP09.jpeg'
+        Img: './public/SHOP09.jpeg'
     },
 ]
 
